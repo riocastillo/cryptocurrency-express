@@ -1,0 +1,116 @@
+body{
+  margin:3%;
+  font-family: 'Fjalla One', sans-serif;
+  background-color: rgba(128, 128, 128, 0.531);
+}
+
+
+tr{
+  border:2px solid black;
+ 
+}
+th{
+  color:white;
+  background: black;
+}
+table{
+  width:80%;
+  border:3px solid black;
+  margin:auto;
+}
+
+td{
+  border:2px solid black;
+  padding:5px;
+  text-align:center;
+  background:white;
+}
+
+#todays h1{
+  font-size:50px;
+  text-align: center;
+  clear:both;
+  margin-bottom:20px;
+  padding-top:20px;
+}
+
+
+#inputed h2{
+  font-size:20px;
+  text-align: center;
+  border:3px solid black;
+  padding:10px;
+  background:white;
+  margin:0;
+}
+
+#inputed{
+  width:54%;
+  float:left;
+  margin-left:5%;
+  margin-top:2%;
+}
+
+.top{
+  text-align: center;
+}
+
+
+input, button{
+  padding:8px;
+  border-radius: 8px;
+  border:2px solid black;
+  font-family: 'Fjalla One', sans-serif;
+    font-size:25px;
+}
+
+button{
+  color: white;
+  background:black;
+  padding:10px;
+  width:20%;
+}
+input{
+  width:60%;
+  margin-right:.5%;
+}
+
+#info{
+  font-size:30px;
+  text-align: center;
+}
+
+img{
+  width:107%;
+}
+
+#left{
+  border: 6px solid black;
+  width:40%;
+  float:left;
+  height:370px;
+  background:white;
+  background-image: url("views/tech.png");
+  background-size: contain;
+}
+
+
+.rowL, .rowR{
+  float:left;
+  width:50%;
+  
+}
+
+#coins{
+  width:40%;
+  padding-bottom:3.2%;
+}
+
+button:hover {
+  transform: scale(0.9);
+}
+
+button:active {
+  box-shadow: 0 5px #666;
+  transform: translateY(5px);
+}

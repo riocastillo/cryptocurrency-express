@@ -1,0 +1,17 @@
+{
+  "name": "cryptocurrency",
+  "version": "1.0.0",
+  "description": "new express cryptofile",
+  "main": "index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "author": "rio",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "ejs": "^3.1.6",
+    "express": "^4.17.1",
+    "mongodb": "^4.1.3"
+  }
+}

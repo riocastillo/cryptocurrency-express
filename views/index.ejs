@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- CSS only -->
+  <!-- <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous"> -->
+  <link rel="stylesheet" type="text/css" href="/css/style.css" /></head>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fjalla+One&display=swap" rel="stylesheet">
+<header>
+
+</header>
+
+<body>
+  <section class="top">
+    <section id="left">
+    <img src="bitboy.png">
+  </section>
+        <section id="inputed">
+      <img src="coin.png" id="coins">
+      <input id="crypto" placeholder="Enter your currency search here"></input>
+      <button type="button" class="button">Get results</button>
+      <h1 id="info">Info of your cryptocurrency: </h1>
+      <section class="rowL">
+      <h2 class="N">Currency Name</h2>
+      <h2 class="p">Current Price</h2>
+    </section>
+    <section class="rowR">
+      <h2 class="r">Current Rank</h2>
+      <h2 class="s">Symbol</h2>
+    </section>
+    </section>
+  </section>
+  <section id="todays">
+    <h1>Popular Crypto </h1>
+    <table class="table">
+      <thead>
+        <tr>
+          <th scope="col">Currency Name</th>
+          <th scope="col">Current Price</th>
+          <th scope="col">Today's Rank</th>
+          <th scope="col">Symbol</th>
+        </tr>
+      </thead>
+  </section>
+  <tbody id="data"></tbody>
+  <script src="js/main.js"></script>
+</body>
+</html>
